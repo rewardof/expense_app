@@ -1,0 +1,371 @@
+[
+  {
+    "model": "account.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$hiA7qyLcOB2RCBx5xAfjzO$dKElAvc6yjvDBs194r6rqrMPpVq0nwc/AtYVeHFTsc4=",
+      "email": "admin@gmail.com",
+      "username": "admin",
+      "family": 1,
+      "role": "son",
+      "first_name": "Tohirbek",
+      "last_name": "Soliyev",
+      "is_superuser": true,
+      "is_active": true,
+      "is_admin": true,
+      "date_joined": "2021-05-05T07:31:26.818Z",
+      "last_login": "2021-05-18T07:05:08.006Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "account.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$uCdHJcga8DGw8i3jEBbPvB$1NcJfY5UmI5Zwow2JB7wxIDzH9tVscQINGYz7D2Glhg=",
+      "email": "tohirbeksoliyev88@gmail.com",
+      "username": "rewardof",
+      "family": 3,
+      "role": "son",
+      "first_name": "Tohirbek",
+      "last_name": "Mamadaliyev",
+      "is_superuser": true,
+      "is_active": true,
+      "is_admin": false,
+      "date_joined": "2021-05-05T07:39:23.566Z",
+      "last_login": "2021-05-07T06:31:53.251Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "account.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$6UQrrFTsulwcuQ5AAWP6w6$vCU38rJURz9y/2I83zZepuZgbsH1jPZJDY+454qGnek=",
+      "email": "jaxongirabdusalomov0102@gmail.com",
+      "username": "",
+      "family": 1,
+      "role": "son",
+      "first_name": "Sahobiddin",
+      "last_name": "Mamadaliyev",
+      "is_superuser": false,
+      "is_active": true,
+      "is_admin": false,
+      "date_joined": "2021-05-05T15:49:50.457Z",
+      "last_login": "2021-05-05T15:49:50.457Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "account.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$tPS1z3QpXENXSTPG1Oe1CA$TDgNrn6vYfzbOTz2jEBMpol6sVnT30LH0J0GysD9AyU=",
+      "email": "sayyoraxonanvarova@gmail.com",
+      "username": "marhaboxon",
+      "family": 1,
+      "role": "son",
+      "first_name": "Marhaboxon",
+      "last_name": "Mamadaliyeva",
+      "is_superuser": false,
+      "is_active": true,
+      "is_admin": false,
+      "date_joined": "2021-05-05T15:52:32.413Z",
+      "last_login": "2021-05-05T15:52:32.413Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "account.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$khNN0gUnoXwWtCTSCkyb4v$Nu9wXzYAq9N8tyOUxxnLNEYFk4kymJcMnM3kSZ4STvI=",
+      "email": "example@gmail.com",
+      "username": "gulhayo",
+      "family": 1,
+      "role": "son",
+      "first_name": "Gulhayo",
+      "last_name": "Soliyeva",
+      "is_superuser": false,
+      "is_active": true,
+      "is_admin": false,
+      "date_joined": "2021-05-05T15:53:16.644Z",
+      "last_login": "2021-05-05T15:53:16.644Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "account.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$zIaJnqYaB9xXRZOH8GcIdt$VJgVRTGE1LLhZkXyQmmpopsXuJcxw+Da+VcJx5Lh0rU=",
+      "email": "tohirbek99@gmail.com",
+      "username": "grandpa",
+      "family": 1,
+      "role": "son",
+      "first_name": "Solijon",
+      "last_name": "Mamadaliyev",
+      "is_superuser": false,
+      "is_active": true,
+      "is_admin": false,
+      "date_joined": "2021-05-05T15:54:04.526Z",
+      "last_login": "2021-05-05T15:54:04.527Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "account.user",
+    "pk": 7,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$hjbmKtV8KJ0qioTPWkkKxL$lOpTD3MKJCC4FsjZ4SxNHiFhzC6XUpWqEcR6ovbhsyA=",
+      "email": "grandma@gmail.com",
+      "username": "grandma",
+      "family": 1,
+      "role": "son",
+      "first_name": "Holinsaxon",
+      "last_name": "Mamadaliyeva",
+      "is_superuser": false,
+      "is_active": true,
+      "is_admin": false,
+      "date_joined": "2021-05-05T15:54:44.627Z",
+      "last_login": "2021-05-05T15:54:44.627Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "account.user",
+    "pk": 8,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$x2HQYEMSr26aJMma44xX0x$Kc9Vw/ul+t8lpFi0ABEtZvHxTJMQM7Oj1gevasz7ODE=",
+      "email": "sister@gmail.com",
+      "username": "sister",
+      "family": 1,
+      "role": "son",
+      "first_name": "Mahliyo",
+      "last_name": "Soliyeva",
+      "is_superuser": false,
+      "is_active": true,
+      "is_admin": false,
+      "date_joined": "2021-05-05T15:55:36.627Z",
+      "last_login": "2021-05-05T15:55:36.627Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "account.user",
+    "pk": 9,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$sj8mrNgqpahlBOCgxmD1pg$qD7q+eSk9f2UtcXXn4Kf7aafoT7PRYDuzoClxCrkboQ=",
+      "email": "tohirbek122@gmail.com",
+      "username": "22dwew",
+      "family": 2,
+      "role": "son",
+      "first_name": "",
+      "last_name": "",
+      "is_superuser": false,
+      "is_active": true,
+      "is_admin": false,
+      "date_joined": "2021-05-06T06:55:51.384Z",
+      "last_login": "2021-05-06T06:55:53.446Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "account.role",
+    "pk": 1,
+    "fields": {
+      "role": "son"
+    }
+  },
+  {
+    "model": "account.role",
+    "pk": 2,
+    "fields": {
+      "role": "brother"
+    }
+  },
+  {
+    "model": "account.role",
+    "pk": 3,
+    "fields": {
+      "role": "grandson"
+    }
+  },
+  {
+    "model": "account.role",
+    "pk": 4,
+    "fields": {
+      "role": "daughter"
+    }
+  },
+  {
+    "model": "account.role",
+    "pk": 5,
+    "fields": {
+      "role": "sister"
+    }
+  },
+  {
+    "model": "account.role",
+    "pk": 6,
+    "fields": {
+      "role": "granddaughter"
+    }
+  },
+  {
+    "model": "account.role",
+    "pk": 7,
+    "fields": {
+      "role": "father"
+    }
+  },
+  {
+    "model": "account.role",
+    "pk": 8,
+    "fields": {
+      "role": "husband"
+    }
+  },
+  {
+    "model": "account.role",
+    "pk": 9,
+    "fields": {
+      "role": "mother"
+    }
+  },
+  {
+    "model": "account.role",
+    "pk": 10,
+    "fields": {
+      "role": "wife"
+    }
+  },
+  {
+    "model": "account.role",
+    "pk": 11,
+    "fields": {
+      "role": "bride"
+    }
+  },
+  {
+    "model": "account.role",
+    "pk": 12,
+    "fields": {
+      "role": "grandpa"
+    }
+  },
+  {
+    "model": "account.role",
+    "pk": 13,
+    "fields": {
+      "role": "grandma"
+    }
+  },
+  {
+    "model": "account.userrole",
+    "pk": 2,
+    "fields": {
+      "user1": 2,
+      "user2": 3,
+      "role": 7
+    }
+  },
+  {
+    "model": "account.userrole",
+    "pk": 3,
+    "fields": {
+      "user1": 1,
+      "user2": 4,
+      "role": 9
+    }
+  },
+  {
+    "model": "account.userrole",
+    "pk": 4,
+    "fields": {
+      "user1": 1,
+      "user2": 6,
+      "role": 12
+    }
+  },
+  {
+    "model": "account.userrole",
+    "pk": 5,
+    "fields": {
+      "user1": 1,
+      "user2": 7,
+      "role": 13
+    }
+  },
+  {
+    "model": "account.userrole",
+    "pk": 6,
+    "fields": {
+      "user1": 1,
+      "user2": 8,
+      "role": 5
+    }
+  },
+  {
+    "model": "account.userrole",
+    "pk": 7,
+    "fields": {
+      "user1": 1,
+      "user2": 5,
+      "role": 5
+    }
+  },
+  {
+    "model": "account.family",
+    "pk": 1,
+    "fields": {
+      "family_name": "Mamadaliyevlar"
+    }
+  },
+  {
+    "model": "account.family",
+    "pk": 2,
+    "fields": {
+      "family_name": "Soliyevlar"
+    }
+  },
+  {
+    "model": "account.family",
+    "pk": 3,
+    "fields": {
+      "family_name": "Jo'rayevlar"
+    }
+  },
+  {
+    "model": "account.family",
+    "pk": 4,
+    "fields": {
+      "family_name": "Arabbayevlar"
+    }
+  },
+  {
+    "model": "account.profile",
+    "pk": 1,
+    "fields": {
+      "user": 2,
+      "image": "images/soliyev_wGddjVc.jpg"
+    }
+  },
+  {
+    "model": "account.profile",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "image": "images/soliyev_Df6EwUA.jpg"
+    }
+  }
+]

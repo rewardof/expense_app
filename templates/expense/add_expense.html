@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+<form action="{% url 'expense:add_expense' %}" class="container" style="width: 400px" method="POST">
+    {% include 'partials/_alerts.html' %}
+    {% csrf_token %}
+    {{ form | crispy }}
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+<!--<div class="card">-->
+<!--    <div class="card-body">-->
+{#<!--        <form action="{% url 'expense:add_expense' %}">-->#}
+<!--            <div class="form-group">-->
+<!--                <label for="">Item</label>-->
+<!--                <input type="text" class="form-control-sm" name="item">-->
+<!--                <label for="">Amount of Expense</label>-->
+<!--                <input type="number" class="form-control-sm" name="cost">-->
+<!--                <label for="">description</label>-->
+<!--                <input type="text" class="form-control-sm" name="description">-->
+<!--                <label for="">Category</label>-->
+<!--                <select name="category" id="" class="select form-control">-->
+<!--                    <option value="1">Clothes</option>-->
+<!--                    <option value="2">Food</option>-->
+<!--                    <option value="3">Household Expenses</option>-->
+<!--                    <option value="4">Educations</option>-->
+<!--                </select>-->
+
+<!--            </div>-->
+<!--            <input type="submit" value="Submit" class="btn btn-primary-sm">-->
+<!--        </form>-->
+<!--    </div>-->
+<!--</div>-->
+
+{% endblock content %}

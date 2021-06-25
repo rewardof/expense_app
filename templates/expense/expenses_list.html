@@ -1,0 +1,150 @@
+{% extends 'base.html' %}
+{% load crispy_forms_filters %}
+{% load static %}
+{% block content %}
+    <!-- Alerts -->
+    {% include 'partials/_alerts.html' %}
+
+
+    <div class="dashboard-top">
+        <div class="top-card">
+            <div class="card-icon">
+                <i class="fas fa-cart-arrow-down"></i>
+            </div>
+            <div class="card-title">Umumiy Savdo</div>
+            <div class="count">ddd</div>
+            <div class="date">zfg</div>
+        </div>
+        <div class="top-card">
+            <div class="card-icon">
+                <i class="fas fa-dollar-sign"></i>
+            </div>
+            <div class="card-title">Naqd pul</div>
+            <div class="count"></div>
+            <div class="date"></div>
+        </div>
+        <div class="top-card">
+            <div class="card-icon">
+                <i class="far fa-credit-card"></i>
+            </div>
+            <div class="card-title">Plastik</div>
+            <div class="count"></div>
+            <div class="date"></div>
+        </div>
+        <div class="top-card">
+            <div class="card-icon">
+                <i class="fas fa-university"></i>
+            </div>
+            <div class="card-title">Total Expense</div>
+            <div class="count"><h2>{{ total_expense }}$</h2></div>
+            <div class="date"></div>
+        </div>
+    </div>
+
+    <div class="row" style="padding-bottom: 20px; padding-left: 20px; padding-right: 20px; margin: 20px;">
+        <div class="col">
+            <div class="card card-body">
+                <form method="get">
+                    <div class="form-group">
+                        <label for="inputEmail4">Keyword</label>
+                        <input type="text" class="form-control" id="inputEmail4" placeholder="search" name="keyword">
+                    </div>
+                    {{ myfilter.form | crispy }}
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="border">
+            <table class="table">
+                <thead class="thead-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Items</th>
+                    <th scope="col">Amount</th>
+                    <th scope="col">Category</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Date added</th>
+                    <th scope="col">Editing</th>
+
+                </tr>
+                </thead>
+                <tbody>
+                {% for expense in expenses %}
+                    <tr>
+                        <th scope="row">{{ forloop.counter }}</th>
+                        <td>{{ expense.items }}</td>
+                        <td>{{ expense.cost }}$</td>
+                        <td>{{ expense.category }}</td>
+                        <td>{{ expense.description }}</td>
+                         <td>{{ expense.date_added }}</td>
+                        <td><a href="{% url 'expense:update_expense' expense.id %}">
+                            <button type="button" class="btn btn-primary">Edit</button>
+                        </a></td>
+
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+{% endblock content %}
+{#  <section id="showcase">#}
+{#    <div class="container text-center">#}
+{#        <div class="home-search p-5">#}
+{#            <div class="overlay p-5">#}
+{#                <div class="search">#}
+{#                    <form action="">#}
+{#                        <!-- Form Row 1 -->#}
+{#                        <div class="form-row">#}
+{#                            <div class="col-md-4 mb-3">#}
+{#                                <label class="sr-only">Keywords</label>#}
+{#                                <input type="text" name="keywords" class="form-control"#}
+{#                                       placeholder="Keyword (Pool, Garage, etc)">#}
+{#                            </div>#}
+{##}
+{#                            <div class="col-md-4 mb-3">#}
+{#                                <label class="sr-only">City</label>#}
+{#                                <input type="text" name="city" class="form-control" placeholder="City">#}
+{#                            </div>#}
+{##}
+{#                            <div class="col-md-4 mb-3">#}
+{#                                <label class="sr-only">State</label>#}
+{#                                <select name="state" class="form-control">#}
+{#                                    <option selected="true" disabled="disabled">State (All)</option>#}
+{#                                    {% for key, value in state_choices.items %}#}
+{#                                    <option value=""></option>#}
+{#                                    {% endfor %}#}
+{#                                </select>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                        <!-- Form Row 2 -->#}
+{#                        <div class="form-row">#}
+{#                            <div class="col-md-6 mb-3">#}
+{#                                <label class="sr-only">Bedrooms</label>#}
+{#                                <select name="bedrooms" class="form-control">#}
+{#                                    <option selected="true" disabled="disabled">Bedrooms (All)</option>#}
+{#                                    {% for key, value in bedroom_choices.items %}#}
+{#                                    <option value=""></option>#}
+{#                                    {% endfor %}#}
+{#                                </select>#}
+{#                            </div>#}
+{#                            <div class="col-md-6 mb-3">#}
+{#                                <select name="price" class="form-control" id="type">#}
+{#                                    <option selected="true" disabled="disabled">Max Price (Any)</option>#}
+{#                                    {% for key, value in price_choices.items %}#}
+{#                                    <option value=""></option>#}
+{#                                    {% endfor %}#}
+{#                                </select>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                        <button class="btn btn-secondary btn-block mt-4" type="submit">Submit form</button>#}
+{#                    </form>#}
+{#                </div>#}
+{#            </div>#}
+{#        </div>#}
+{#    </div>#}
+{#</section>#}

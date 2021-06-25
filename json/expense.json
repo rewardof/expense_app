@@ -1,0 +1,93 @@
+[
+  {
+    "model": "expense.userexpense",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "items": "book",
+      "cost": "5.00",
+      "description": "a book for self imporving",
+      "category": "education",
+      "date_added": "2021-05-07T17:06:34.547Z",
+      "date_edited": "2021-05-07T17:06:34.547Z"
+    }
+  },
+  {
+    "model": "expense.userexpense",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "items": "sneakers",
+      "cost": "50.00",
+      "description": "awesome",
+      "category": "clothes",
+      "date_added": "2021-05-08T06:10:33.427Z",
+      "date_edited": "2021-05-08T06:10:33.615Z"
+    }
+  },
+  {
+    "model": "expense.userexpense",
+    "pk": 3,
+    "fields": {
+      "user": 1,
+      "items": "sneakers",
+      "cost": "50.00",
+      "description": "awesome",
+      "category": "clothes",
+      "date_added": "2021-05-08T06:11:09.271Z",
+      "date_edited": "2021-05-08T06:11:09.442Z"
+    }
+  },
+  {
+    "model": "expense.userexpense",
+    "pk": 4,
+    "fields": {
+      "user": 1,
+      "items": "water melon",
+      "cost": "10.00",
+      "description": "delicious product ",
+      "category": "food",
+      "date_added": "2021-05-09T08:52:58.848Z",
+      "date_edited": "2021-05-09T08:52:59.831Z"
+    }
+  },
+  {
+    "model": "expense.userexpense",
+    "pk": 5,
+    "fields": {
+      "user": 1,
+      "items": "krisa",
+      "cost": "100.00",
+      "description": "Jahongir",
+      "category": "household_expense",
+      "date_added": "2021-05-09T08:53:48.663Z",
+      "date_edited": "2021-05-09T08:53:48.884Z"
+    }
+  },
+  {
+    "model": "expense.userexpense",
+    "pk": 6,
+    "fields": {
+      "user": 1,
+      "items": "kir sovun",
+      "cost": "3.00",
+      "description": "sovun for washing clothes",
+      "category": "household_expense",
+      "date_added": "2021-05-09T19:13:06.725Z",
+      "date_edited": "2021-05-09T19:13:06.836Z"
+    }
+  },
+  {
+    "model": "expense.userexpense",
+    "pk": 7,
+    "fields": {
+      "user": 1,
+      "items": "Iphone 12x pro",
+      "cost": "1200.00",
+      "description": "it is cool ",
+      "category": "education",
+      "date_added": "2021-05-18T07:07:47.501Z",
+      "date_edited": "2021-05-18T07:07:47.626Z"
+    }
+  }
+]

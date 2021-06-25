@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+<form action="{% url 'expense:update_expense' expense_id %}" class="container" style="width: 400px" method="POST">
+    {% include 'partials/_alerts.html' %}
+    {% csrf_token %}
+    {{ form | crispy }}
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>
+
+{% endblock content %}
