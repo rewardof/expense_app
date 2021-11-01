@@ -82,7 +82,7 @@ class Role(models.Model):
         ('grandpa', 'Grandpa'),
         ('grandma', 'Grandma'),
     ]
-    role = models.CharField(max_length=255, unique=True)
+    role = models.CharField(max_length=255, unique=True, choices=ROLES)
 
     class Meta:
         verbose_name_plural = 'roles'
